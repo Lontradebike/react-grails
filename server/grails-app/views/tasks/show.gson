@@ -1,0 +1,7 @@
+import react.Tasks
+
+model {
+	Tasks tasks
+}
+
+json tmpl.tasks(tasks)

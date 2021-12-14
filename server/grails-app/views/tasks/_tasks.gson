@@ -1,0 +1,7 @@
+import react.Tasks
+
+model {
+	Tasks tasks
+}
+
+json g.render(tasks, [resolveTemplate: false])

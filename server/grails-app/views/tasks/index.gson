@@ -1,0 +1,8 @@
+import react.Tasks
+
+model {
+	Iterable<Tasks> tasksList
+}
+
+json tmpl.tasks(tasksList ?: [])
+
